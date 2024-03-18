@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.change {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    border-radius: 12px;
+    background-color: rgb(219, 219, 219);
+    padding: .5rem;
+}
+
+.p-container {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.p-container.active {
+    background-color: rgb(201, 201, 201);
+    padding: 1rem;
+    border-radius: 12px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+button {
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+}
